@@ -1,0 +1,33 @@
+* { /* 'star' means everythign. referred to as a 'splat'*/
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family:'Courier New';
+    background-color: green;
+    color: white;
+    width: 100vw;
+    height: 5vh;
+    margin: 0;
+    text-align: center;
+    padding: 1.5vh;
+}
+
+h1 > span {
+    font-size: 16px;
+    margin: 10%;
+    font-weight: 200;
+}
+
+p {
+    font-family: 'Courier New Bold', monospace;
+    text-align: center;
+    font-size: 14 px;
+    width: 50%;
+    margin: 2.5vh auto; /* this centers the paragraph */
+}
+
+div {
+    border-top: solid 1px grey;
+}
