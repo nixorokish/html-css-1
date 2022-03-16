@@ -1,0 +1,43 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} * */
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: rgb(0, 68, 255)
+}
+
+h3 {
+    color: #a800a8
+}
+
+h4, h5, h6 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 2em;
+} /* it will take the lowest one down over any above it */
+
+img {
+    width: 240px
+}
+
+p {
+    text-align: right;
+}
+
+div {
+    height: 500px;
+    width: 500px;
+    background-color: bisque;
+    color:white ;
+    padding: 50px; /* can't change the color of padding or margin */
+    border: solid 10px black;
+    margin: 50px;
+    box-sizing: border-box;
+}
